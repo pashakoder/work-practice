@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+  --main-text: #1e3072;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+[class^='popup'][class$='-bg'] {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 20;
+}
+
+[class^='popup'] > *.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.warning {
+  color: orange;
+}
+
+[class^='change-'] {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+[class^='change-'] > ul {
+  height: 55vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+[class^='change-'] > ul > li {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+[class^='change-'] > ul > li.row-game {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+}

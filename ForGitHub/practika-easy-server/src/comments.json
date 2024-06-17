@@ -1,0 +1,17 @@
+[
+  {
+    "username": "testUser",
+    "mail": "test@com.ru",
+    "text": "Test3 Comment33"
+  },
+  {
+    "username": "TestCommentator",
+    "mail": "asd@a.ru",
+    "text": "Test comment 2"
+  },
+  {
+    "username": "ad",
+    "mail": "ad@ad.com",
+    "text": "asdasd"
+  }
+]
